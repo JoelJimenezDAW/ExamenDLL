@@ -6,6 +6,12 @@ xmlns="https://www.w3schools.com"
 elementFormDefault="qualified">
 
 
+
+
+
+
+
+
 <xs:element name="CriterioValoracion">
     <xs:complexType>
         <xs:sequence>
