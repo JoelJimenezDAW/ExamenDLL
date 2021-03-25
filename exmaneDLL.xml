@@ -1,4 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet href="decoracion.css"?>
+<examenddl xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="examen.xsd">
 
 <aspirante>
         <Id_aspirante>001</Id_aspirante>
@@ -11,15 +13,128 @@
         <Dan>Primero Dan</Dan>
         <Cinturon>Cinturon negro</Cinturon>
         <Fecha_Ingreso_Dan>23/03/2019</Fecha_Ingreso_Dan>
-        <FotoAspirante>FotoAspirante1</FotoAspirante>
+        <FotoAspirante>FotoAspirante.png</FotoAspirante>
         <Tiempo_Dan_Anterior>3 meses</Tiempo_Dan_Anterior>
-        <FotoDNI>FotoDni1</FotoDNI>
-        <FotoCarnetGrados>FotoCarnetGrados1</FotoCarnetGrados>
+        <FotoDNI>FotoDni1.png</FotoDNI>
+        <FotoCarnetGrados>FotoCarnetGrados1.png</FotoCarnetGrados>
 </aspirante>
 
 <Meritos>
-        <Id_aspirante></Id_aspirante>
-        <Edad_aspirante></Edad_aspirante>
-        <LicenciaActualizada></LicenciaActualizada>
-        <TrabajoEscrito></TrabajoEscrito>
+        <Id_aspirante>001</Id_aspirante>
+        <Edad_aspirante>18</Edad_aspirante>
+        <LicenciaActualizada>false</LicenciaActualizada>
+        <TrabajoEscrito>true</TrabajoEscrito>
 </Meritos>
+
+<Convalidacion_Grados>
+        <Id_aspirante>001</Id_aspirante>
+</Convalidacion_Grados> 
+
+<Requisitos_Aspirantes>
+        <SolicitudHasta3Dan>true</SolicitudHasta3Dan>
+        <D4anySuperiorCurriculum>true</D4anySuperiorCurriculum>
+</Requisitos_Aspirantes>
+
+<DispensaMedica>
+        <Id_aspirante>001</Id_aspirante>
+</DispensaMedica>
+
+<Jueces>
+        <Id_aspirante>001</Id_aspirante>
+        <Nombres>Joel</Nombres>
+        <Apellidos>Jimenez Genius</Apellidos>
+        <DiplomaJuez>true</DiplomaJuez>
+</Jueces>
+
+<Criterio_Valoracion>
+        <Indumentaria>9</Indumentaria>
+        <AseoPersonal>8</AseoPersonal>
+        <EjecucionTecnica>10</EjecucionTecnica>
+        <Valores>9</Valores>
+        <Respuestas>10</Respuestas>
+</Criterio_Valoracion>
+
+<Tribunal>
+        <Numero_jueces>1</Numero_jueces>
+        <Calificacion_final>8</Calificacion_final>
+</Tribunal>
+
+<AbonarCuota>
+        <Id_aspirante>001</Id_aspirante>
+</AbonarCuota>
+
+<SuspendeExamen>
+        <Id_aspirante>001</Id_aspirante>
+        <SuspendeParcial>false</SuspendeParcial>
+        <SuspendeTotal>false</SuspendeTotal>
+        <SuspendeSegundaFase>false</SuspendeSegundaFase>
+</SuspendeExamen>
+
+<Hasta3erDan>
+        <Tecnicas>Kakato geri</Tecnicas>
+        <Kata>ataque</Kata>
+        <Kumite>real</Kumite>
+        <Campeonatos>Karate</Campeonatos>
+</Hasta3erDan>
+
+<CinturonNegro>
+        <Tecnica_Directa>TSUKI-UCHI WAZA</Tecnica_Directa>
+        <Tecnica_Circulares>Mawashi geri</Tecnica_Circulares>
+        <Tecnica_Pierna>Mae geri</Tecnica_Pierna>
+        <Teoria>Basica</Teoria>
+        <Kata>Juroku</Kata>
+        <Kumite>Ippon Kumite</Kumite>
+</CinturonNegro>
+
+<CinturonNegroPrimerDan>
+        <Tecnica_Defensa>UKE WAZA</Tecnica_Defensa>
+        <Tecnica_Pierna>GERI WAZA</Tecnica_Pierna>
+        <Tecnica_DirectaIndirecta>TSUKI-UCHI WAZA </Tecnica_DirectaIndirecta>
+        <Tecnica_Combinada>UKE WAZA y GERI WAZA</Tecnica_Combinada>
+        <Teoria>Avanzada</Teoria>
+        <Kata></Kata>
+        <Kumite></Kumite>
+        <Aplicacion_Tecnica></Aplicacion_Tecnica>
+</CinturonNegroPrimerDan>
+
+<CinturonNegroSegundoDan>
+        <Tecnica_Base></Tecnica_Base>
+        <Tecnica_Directa></Tecnica_Directa>
+        <Tecnica_IndirectaCircular></Tecnica_IndirectaCircular>
+        <Tecnica_Pierna></Tecnica_Pierna>
+        <Tecnica_Combinada></Tecnica_Combinada>
+        <Teoria></Teoria>
+        <Kata></Kata>
+        <Kumite></Kumite>
+        <Campeonatos></Campeonatos>
+        <Tecnicas></Tecnicas>
+        <Aplicacion_Tecnica></Aplicacion_Tecnica>
+        <Demo_libre></Demo_libre>
+</CinturonNegroSegundoDan>
+
+<CinturonNegroTercerDan>
+        <Variaciones_Tecnica></Variaciones_Tecnica>
+        <Teoria></Teoria>
+        <Kata></Kata>
+        <Kumite></Kumite>
+        <Campeonatos></Campeonatos>
+        <Tecnicas></Tecnicas>
+        <Aplicaciones></Aplicaciones>
+        <aplicacion_Tecnica></aplicacion_Tecnica>
+        <Demo_libre></Demo_libre>
+</CinturonNegroTercerDan>
+
+<CinturonNegroCuartoDan>
+        <Kata></Kata>
+        <Kumite></Kumite>
+        <Coloquio></Coloquio>
+        <Aplicacion_Tecnica></Aplicacion_Tecnica>
+        <Demo_libre></Demo_libre>
+</CinturonNegroCuartoDan>
+
+<QuintoDanySuperior>
+        <Kata></Kata>
+        <Coloquio></Coloquio>
+</QuintoDanySuperior>
+
+</examenddl>
