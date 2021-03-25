@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<aspirante>
+        <Id_aspirante>001</Id_aspirante>
+        <Nombres>Juanda</Nombres>
+        <Apellidos>Ratero Hernandez</Apellidos>
+        <DNI>1243568R</DNI>
+        <Telefono>565153456</Telefono>
+        <Direccion>Calle Rencor, 20</Direccion>
+        <Fecha_nacimiento>19/02/2002</Fecha_nacimiento>
+        <Dan>Primero Dan</Dan>
+        <Cinturon>Cinturon negro</Cinturon>
+        <Fecha_Ingreso_Dan>23/03/2019</Fecha_Ingreso_Dan>
+        <FotoAspirante>FotoAspirante1</FotoAspirante>
+        <Tiempo_Dan_Anterior>3 meses</Tiempo_Dan_Anterior>
+        <FotoDNI>FotoDni1</FotoDNI>
+        <FotoCarnetGrados>FotoCarnetGrados1</FotoCarnetGrados>
+</aspirante>
+
+<Meritos>
+        <Id_aspirante></Id_aspirante>
+        <Edad_aspirante></Edad_aspirante>
+        <LicenciaActualizada></LicenciaActualizada>
+        <TrabajoEscrito></TrabajoEscrito>
+</Meritos>
