@@ -14,6 +14,22 @@ elementFormDefault="qualified">
     </xs:complexType>
     </xs:element>
 
+    <xs:element name="Examen">
+    <xs:complexType>
+        <xs:sequence>
+            <xs:element name="Id_aspirante" type="xs:integer"/>
+        </xs:sequence>
+    </xs:complexType>
+    </xs:element>
+
+    <xs:element name="Resultados">
+    <xs:complexType>
+        <xs:sequence>
+            <xs:element name="Id_aspirante" type="xs:integer"/>
+        </xs:sequence>
+    </xs:complexType>
+    </xs:element>
+
 
     <xs:element name="aspirante">
         <xs:complexType>
@@ -178,7 +194,7 @@ elementFormDefault="qualified">
 <xs:element name="CinturonNegroPrimerDan">
     <xs:complexType>
         <xs:sequence>
-            <xs:element name="Tecnica_Directa" type="xs:string"/>
+            <xs:element name="Tecnica_Defensa" type="xs:string"/>
             <xs:element name="Tecnica_Pierna" type="xs:string"/>
             <xs:element name="Tecnica_DirectaIndirecta" type="xs:string"/>
             <xs:element name="Tecnica_Combinada" type="xs:string"/>
@@ -199,7 +215,7 @@ elementFormDefault="qualified">
         <xs:sequence>
             <xs:element name="Tecnica_Base" type="xs:string"/>
             <xs:element name="Tecnica_Directa" type="xs:string"/>
-            <xs:element name="Tecnica_DirectaIndirecta" type="xs:string"/>
+            <xs:element name="Tecnica_IndirectaCircular" type="xs:string"/>
             <xs:element name="Tecnica_Pierna" type="xs:string"/>
             <xs:element name="Tecnica_Combinada" type="xs:string"/>
             <xs:element name="Teoria" type="xs:string"/>
