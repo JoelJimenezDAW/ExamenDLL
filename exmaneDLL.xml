@@ -2,7 +2,12 @@
 <?xml-stylesheet href="decoracion.css"?>
 <examenddl xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="examen.xsd">
 
-<aspirante>
+<Resultados>
+        <Id_aspirante></Id_aspirante> 
+</Resultados>
+
+
+<Aspirantes>
         <Id_aspirante>001</Id_aspirante>
         <Nombres>Juanda</Nombres>
         <Apellidos>Ratero Hernandez</Apellidos>
@@ -17,27 +22,40 @@
         <Tiempo_Dan_Anterior>3 meses</Tiempo_Dan_Anterior>
         <FotoDNI>FotoDni1.png</FotoDNI>
         <FotoCarnetGrados>FotoCarnetGrados1.png</FotoCarnetGrados>
-</aspirante>
+</Aspirantes>
 
-<Meritos>
+<CriterioValoraciones>
+        <Indumentaria>9</Indumentaria>
+        <AseoPersonal>8</AseoPersonal>
+        <EjecucionTecnica>10</EjecucionTecnica>
+        <Valores>9</Valores>
+        <Respuestas>10</Respuestas>
+</CriterioValoraciones>
+
+<Examenes>
+        <Id_aspirante></Id_aspirante> 
+</Examenes>
+
+<Meritos2>
         <Id_aspirante>001</Id_aspirante>
         <Edad_aspirante>18</Edad_aspirante>
         <LicenciaActualizada>false</LicenciaActualizada>
         <TrabajoEscrito>true</TrabajoEscrito>
-</Meritos>
+</Meritos2>
 
-<Convalidacion_Grados>
+
+<ConvalidacionesGrados>
         <Id_aspirante>001</Id_aspirante>
-</Convalidacion_Grados> 
+</ConvalidacionesGrados> 
 
-<Requisitos_Aspirantes>
+<RequisitosAspirantes>
         <SolicitudHasta3Dan>true</SolicitudHasta3Dan>
         <D4anySuperiorCurriculum>true</D4anySuperiorCurriculum>
-</Requisitos_Aspirantes>
+</RequisitosAspirantes>
 
-<DispensaMedica>
+<DispensaMedicas>
         <Id_aspirante>001</Id_aspirante>
-</DispensaMedica>
+</DispensaMedicas>
 
 <Jueces>
         <Id_aspirante>001</Id_aspirante>
@@ -46,22 +64,14 @@
         <DiplomaJuez>true</DiplomaJuez>
 </Jueces>
 
-<Criterio_Valoracion>
-        <Indumentaria>9</Indumentaria>
-        <AseoPersonal>8</AseoPersonal>
-        <EjecucionTecnica>10</EjecucionTecnica>
-        <Valores>9</Valores>
-        <Respuestas>10</Respuestas>
-</Criterio_Valoracion>
-
-<Tribunal>
+<Tribunales>
         <Numero_jueces>1</Numero_jueces>
         <Calificacion_final>8</Calificacion_final>
-</Tribunal>
+</Tribunales>
 
-<AbonarCuota>
+<AbonarCuotas>
         <Id_aspirante>001</Id_aspirante>
-</AbonarCuota>
+</AbonarCuotas>
 
 <SuspendeExamen>
         <Id_aspirante>001</Id_aspirante>
@@ -70,23 +80,23 @@
         <SuspendeSegundaFase>false</SuspendeSegundaFase>
 </SuspendeExamen>
 
-<Hasta3erDan>
+<Hasta3erDanes>
         <Tecnicas>Kakato geri</Tecnicas>
         <Kata>ataque</Kata>
         <Kumite>real</Kumite>
         <Campeonatos>Karate</Campeonatos>
-</Hasta3erDan>
+</Hasta3erDanes>
 
-<CinturonNegro>
+<CinturonNegros>
         <Tecnica_Directa>TSUKI-UCHI WAZA</Tecnica_Directa>
         <Tecnica_Circulares>Mawashi geri</Tecnica_Circulares>
         <Tecnica_Pierna>Mae geri</Tecnica_Pierna>
         <Teoria>Basica</Teoria>
         <Kata>Juroku</Kata>
         <Kumite>Ippon Kumite</Kumite>
-</CinturonNegro>
+</CinturonNegros>
 
-<CinturonNegroPrimerDan>
+<CinturonNegroPrimerAny>
         <Tecnica_Defensa>UKE WAZA</Tecnica_Defensa>
         <Tecnica_Pierna>GERI WAZA</Tecnica_Pierna>
         <Tecnica_DirectaIndirecta>TSUKI-UCHI WAZA </Tecnica_DirectaIndirecta>
@@ -95,9 +105,9 @@
         <Kata>Juroku</Kata>
         <Kumite>Ippon Kumite</Kumite>
         <Aplicacion_Tecnica>Aplicar</Aplicacion_Tecnica>
-</CinturonNegroPrimerDan>
+</CinturonNegroPrimerAny>
 
-<CinturonNegroSegundoDan>
+<CinturonNegroSegundoAny>
         <Tecnica_Base>Kakato geri</Tecnica_Base>
         <Tecnica_Directa>TSUKI-UCHI WAZA</Tecnica_Directa>
         <Tecnica_IndirectaCircular>TSUKI-UCHI WAZA</Tecnica_IndirectaCircular>
@@ -108,11 +118,11 @@
         <Kumite>Ippon Kumite</Kumite>
         <Campeonatos>Karate</Campeonatos>
         <Tecnicas>Kakato geri</Tecnicas>
-        <Aplicacion_Tecnica>Aplicar</Aplicacion_Tecnica>
+        <Aplicacion_Tecnica></Aplicacion_Tecnica>
         <Demo_libre>Accion Libre</Demo_libre>
-</CinturonNegroSegundoDan>
+</CinturonNegroSegundoAny>
 
-<CinturonNegroTercerDan>
+<CinturonNegroTercerAny>
         <Variaciones_Tecnica>Muchas variaciones</Variaciones_Tecnica>
         <Teoria>Avanzada</Teoria>
         <Kata>Juroku</Kata>
@@ -120,21 +130,25 @@
         <Campeonatos>Karate</Campeonatos>
         <Tecnicas>Kakato geri</Tecnicas>
         <Aplicaciones>Aplicar</Aplicaciones>
-        <aplicacion_Tecnica>Aplicar</aplicacion_Tecnica>
+        <Aplicacion_Tecnica>Aplicar</Aplicacion_Tecnica>
         <Demo_libre>Accion Libre</Demo_libre>
-</CinturonNegroTercerDan>
+</CinturonNegroTercerAny>
 
-<CinturonNegroCuartoDan>
+<CinturonNegroCuartoAny>
         <Kata>Juroku</Kata>
         <Kumite>Ippon Kumite</Kumite>
         <Coloquio>Mentalizar</Coloquio>
         <Aplicacion_Tecnica>Aplicar</Aplicacion_Tecnica>
         <Demo_libre>Accion libre</Demo_libre>
-</CinturonNegroCuartoDan>
+</CinturonNegroCuartoAny>
 
-<QuintoDanySuperior>
+<QuintoAnySuperior>
         <Kata>Juroku</Kata>
         <Coloquio>Mentalizar</Coloquio>
-</QuintoDanySuperior>
+</QuintoAnySuperior>
+
+<CriteriosValoraciones>
+        <Id_aspirante>001</Id_aspirante>
+</CriteriosValoraciones>
 
 </examenddl>
