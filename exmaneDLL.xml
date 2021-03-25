@@ -1,22 +1,18 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<!DOCTYPE listaventas [
 
-<!ELEMENT listaventas  (venta*)>
-<!ELEMENT venta  (importe, comprador,cif ,vendedor , codigofactura)>
-<!ELEMENT importe       (#PCDATA)>
-<!ELEMENT comprador      (#PCDATA) >
-<!ELEMENT cif            (#PCDATA)>
-<!ELEMENT vendedor      (#PCDATA)>
-<!ELEMENT codigofactura  (#PCDATA)>
-
-]>
-
-<listaventas>
-    <venta>
-        <importe>32,55€</importe>
-        <comprador> Miguel Cervantes</comprador>
-        <cif>49289348R</cif>
-        <vendedor> Arturo Nacho  </vendedor>
-        <codigofactura> 123456 </codigofactura>
-    </venta>
-</listaventas>
+<aspirante>
+        <Id_aspirante></Id_aspirante>
+        <Nombres> </Nombres>
+        <Apellidos></Apellidos>
+        <DNI>  </DNI>
+        <Telefono>  </Telefono>
+        <Direccion>  </Direccion>
+        <Fecha_nacimiento> </Fecha_nacimiento>
+        <Dan> </Dan>
+        <Cinturon> </Cinturon>
+        <Fecha_Ingreso_Dan> </Fecha_Ingreso_Dan>
+        <FotoAspirante> </FotoAspirante>
+        <Tiempo_Dan_Anterior> </Tiempo_Dan_Anterior>
+        <FotoDNI> </FotoDNI>
+        <FotoCarnetGrados> </FotoCarnetGrados>
+</aspirante>
