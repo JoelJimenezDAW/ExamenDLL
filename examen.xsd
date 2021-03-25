@@ -5,29 +5,29 @@
 <xsd:element name="examenddl" type="tipoexamen"/>
 
     <xsd:complexType name="tipoexamen">
-        <xsd:sequence>
-            <xsd:element name ="Resultados" type="tiporesultado" maxOccurs="unbounded"/>
-            <xsd:element name ="Aspirantes" type="tipoaspirante" maxOccurs="unbounded"/>
-            <xsd:element name ="CriteriosValoraciones" type="tipocriterios" maxOccurs="unbounded"/>
-            <xsd:element name ="Examenes" type="tipoexamenes" maxOccurs="unbounded"/>
-            <xsd:element name ="Meritos2" type="tipomerito" maxOccurs="unbounded"/>
-            <xsd:element name ="ConvalidacionesGrados" type="tipoconvalidacion" maxOccurs="unbounded"/>
-            <xsd:element name ="RequisitosAspirantes" type="tiporequisitos" maxOccurs="unbounded"/>
-            <xsd:element name ="DispensaMedicas" type="tipodispensamedica" maxOccurs="unbounded"/>
-            <xsd:element name ="Jueces" type="tipojueces" maxOccurs="unbounded"/>
-            <xsd:element name ="CriterioValoraciones" type="tipocriteriovaloracion" maxOccurs="unbounded"/>
-            <xsd:element name ="Tribunales" type="tipotribunales" maxOccurs="unbounded"/>
-            <xsd:element name ="AbonarCuotas" type="tipoabonarcuentas" maxOccurs="unbounded"/>
-            <xsd:element name ="Hasta3erDanes" type="tipohasta3erdanes" maxOccurs="unbounded"/>
-            <xsd:element name ="CinturonNegros" type="tipocinturonnegro" maxOccurs="unbounded"/>
-            <xsd:element name ="CinturonNegroPrimerAny" type="tipoprimerdan" maxOccurs="unbounded"/>
-            <xsd:element name ="CinturonNegroSegundoAny" type="tiposegundodan" maxOccurs="unbounded"/>
-            <xsd:element name ="CinturonNegroTercerAny" type="tipotercerdan" maxOccurs="unbounded"/>
-            <xsd:element name ="CinturonNegroCuartoAny" type="tipocuartodan" maxOccurs="unbounded"/>
-            <xsd:element name ="QuintoAnySuperior" type="tipoquntoanysuper" maxOccurs="unbounded"/>
+           <xsd:sequence>
+                <xsd:element name ="Resultados" type="tiporesultado" maxOccurs="unbounded"/>
+                <xsd:element name ="Aspirantes" type="tipoaspirante" maxOccurs="unbounded"/>
+                <xsd:element name ="CriteriosValoraciones" type="tipocriterios" maxOccurs="unbounded"/>
+                <xsd:element name ="Examenes" type="tipoexamenes" maxOccurs="unbounded"/>
+                <xsd:element name ="Meritos2" type="tipomerito" maxOccurs="unbounded"/>
+                <xsd:element name ="ConvalidacionesGrados" type="tipoconvalidacion" maxOccurs="unbounded"/>
+                <xsd:element name ="RequisitosAspirantes" type="tiporequisitos" maxOccurs="unbounded"/>
+                <xsd:element name ="DispensaMedicas" type="tipodispensamedica" maxOccurs="unbounded"/>
+                <xsd:element name ="Jueces" type="tipojueces" maxOccurs="unbounded"/>
+                <xsd:element name ="CriterioValoraciones" type="tipocriteriovaloracion" maxOccurs="unbounded"/>
+                <xsd:element name ="Tribunales" type="tipotribunales" maxOccurs="unbounded"/>
+                <xsd:element name ="AbonarCuotas" type="tipoabonarcuentas" maxOccurs="unbounded"/>
+                <xsd:element name ="Hasta3erDanes" type="tipohasta3erdanes" maxOccurs="unbounded"/>
+                <xsd:element name ="CinturonNegros" type="tipocinturonnegro" maxOccurs="unbounded"/>
+                <xsd:element name ="CinturonNegroPrimerAny" type="tipoprimerdan" maxOccurs="unbounded"/>
+                <xsd:element name ="CinturonNegroSegundoAny" type="tiposegundodan" maxOccurs="unbounded"/>
+                <xsd:element name ="CinturonNegroTercerAny" type="tipotercerdan" maxOccurs="unbounded"/>
+                <xsd:element name ="CinturonNegroCuartoAny" type="tipocuartodan" maxOccurs="unbounded"/>
+                <xsd:element name ="QuintoAnySuperior" type="tipoquntoanysuper" maxOccurs="unbounded"/>
 
 
-        </xsd:sequence>
+            </xsd:sequence>
     </xsd:complexType>
 
 
@@ -36,24 +36,24 @@
             <xsd:sequence>
                 <xsd:element name="Id_aspirante" type="xsd:integer"/>
             </xsd:sequence>
-        </xsd:complexType>
-    </xsd:element>
+    </xsd:complexType>
+    
 
    
     <xsd:complexType name="tipoexamenes">
             <xsd:sequence>
                 <xsd:element name="Id_aspirante" type="xsd:integer"/>
             </xsd:sequence>
-        </xsd:complexType>
-    </xsd:element>
+    </xsd:complexType>
+    
 
     
     <xsd:complexType name="tiporesultado">
             <xsd:sequence>
                 <xsd:element name="Id_aspirante" type="xsd:integer"/>
             </xsd:sequence>
-        </xsd:complexType>
-    </xsd:element>
+    </xsd:complexType>
+    
 
 
     
@@ -74,8 +74,8 @@
                     <xsd:element name="FotoDNI" type="xsd:string"/>
                     <xsd:element name="FotoCarnetGrados" type="xsd:string"/>
                 </xsd:sequence>
-            </xsd:complexType>
-    </xsd:element>
+    </xsd:complexType>
+    
         
         
 
@@ -87,8 +87,8 @@
             <xsd:element name="LicenciaActualizada" type="xsd:boolean"/>
             <xsd:element name="TrabajoEscrito" type="xsd:boolean"/>
             </xsd:sequence>
-        </xsd:complexType>
-    </xsd:element>
+    </xsd:complexType>
+    
 
 
 
@@ -97,8 +97,8 @@
             <xsd:sequence>
             <xsd:element name="Id_aspirante" type="xsd:integer"/>
             </xsd:sequence>
-        </xsd:complexType>
-    </xsd:element>
+    </xsd:complexType>
+    
 
 
 
@@ -108,8 +108,8 @@
             <xsd:element name="SolicitudHasta3Dan" type="xsd:boolean"/>
             <xsd:element name="D4anySuperiorCurriculum" type="xsd:boolean"/>
             </xsd:sequence>
-        </xsd:complexType>
-    </xsd:element>
+    </xsd:complexType>
+    
 
 
 
@@ -118,8 +118,8 @@
                 <xsd:sequence>
                 <xsd:element name="Id_aspirante" type="xsd:integer"/>
                 </xsd:sequence>
-        </xsd:complexType>
-    </xsd:element>
+    </xsd:complexType>
+    
 
 
 
@@ -131,8 +131,8 @@
                     <xsd:element name="Apellidos" type="xsd:string"/>
                     <xsd:element name="DiplomaJuez" type="xsd:boolean"/>
                     </xsd:sequence>
-        </xsd:complexType>
-    </xsd:element>
+    </xsd:complexType>
+    
 
 
 
@@ -145,19 +145,19 @@
                 <xsd:element name="Valores" type="xsd:integer"/>
                 <xsd:element name="Respuestas" type="xsd:integer"/>
             </xsd:sequence>
-        </xsd:complexType>
-    </xsd:element>
+    </xsd:complexType>
+    
 
 
 
     
     <xsd:complexType name = "tipotribunales">
-                    <xsd:sequence>
+                <xsd:sequence>
                     <xsd:element name="Numero_jueces" type="xsd:integer"/>
                     <xsd:element name="Calificacion_final" type="xsd:integer"/>
-                    </xsd:sequence>
-            </xsd:complexType>
-    </xsd:element>
+                </xsd:sequence>
+    </xsd:complexType>
+    
 
 
 
@@ -166,8 +166,8 @@
                 <xsd:sequence>
                     <xsd:element name="Id_aspirante" type="xsd:integer"/>
                 </xsd:sequence>
-            </xsd:complexType>
-    </xsd:element>
+    </xsd:complexType>
+    
 
 
 
@@ -179,8 +179,8 @@
                     <xsd:element name="SuspendeTotal" type="xsd:boolean"/>
                     <xsd:element name="SuspendeSegundaFase" type="xsd:boolean"/>
                 </xsd:sequence>
-            </xsd:complexType>
-    </xsd:element>
+    </xsd:complexType>
+    
 
 
     
@@ -191,8 +191,8 @@
                 <xsd:element name="Kumite" type="xsd:string"/>
                 <xsd:element name="Campeonatos" type="xsd:string"/>
             </xsd:sequence>
-        </xsd:complexType>
-    </xsd:element>
+    </xsd:complexType>
+    
 
 
     
@@ -205,8 +205,8 @@
                 <xsd:element name="Kata" type="xsd:string"/>
                 <xsd:element name="Kumite" type="xsd:string"/>
             </xsd:sequence>
-        </xsd:complexType>
-    </xsd:element>
+    </xsd:complexType>
+    
 
     
     <xsd:complexType name="tipoprimerdan">
@@ -220,8 +220,8 @@
                 <xsd:element name="Kumite" type="xsd:string"/>
                 <xsd:element name="Aplicación_Tecnica" type="xsd:string"/>
             </xsd:sequence>
-        </xsd:complexType>
-    </xsd:element>
+    </xsd:complexType>
+    
 
 
     
@@ -240,8 +240,8 @@
                 <xsd:element name="Aplicación_Tecnica" type="xsd:string"/>
                 <xsd:element name="Demo_libre" type="xsd:string"/>
             </xsd:sequence>
-        </xsd:complexType>
-    </xsd:element>
+    </xsd:complexType>
+    
 
 
     
@@ -257,8 +257,8 @@
                 <xsd:element name="Aplicacion_Tecnica" type="xsd:string"/>
                 <xsd:element name="Demo_libre" type="xsd:string"/>
             </xsd:sequence>
-        </xsd:complexType>
-    </xsd:element>
+    </xsd:complexType>
+    
 
     
         <xsd:complexType name="tipocuartodan">
@@ -269,8 +269,8 @@
                 <xsd:element name="Aplicacion_Tecnica" type="xsd:string"/>
                 <xsd:element name="Demo_libre" type="xsd:string"/>
             </xsd:sequence>
-        </xsd:complexType>
-    </xsd:element>
+    </xsd:complexType>
+    
 
     
     <xsd:complexType name="tipoquntoanysuper">
@@ -278,7 +278,7 @@
                 <xsd:element name="Kata" type="xsd:string"/>
                 <xsd:element name="Coloquio" type="xsd:string"/>
             </xsd:sequence>
-        </xsd:complexType>
-    </xsd:element>
+    </xsd:complexType>
+    
 
 </xsd:schema>

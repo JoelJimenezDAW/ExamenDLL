@@ -92,49 +92,49 @@
         <Tecnica_DirectaIndirecta>TSUKI-UCHI WAZA </Tecnica_DirectaIndirecta>
         <Tecnica_Combinada>UKE WAZA y GERI WAZA</Tecnica_Combinada>
         <Teoria>Avanzada</Teoria>
-        <Kata></Kata>
-        <Kumite></Kumite>
-        <Aplicacion_Tecnica></Aplicacion_Tecnica>
+        <Kata>Juroku</Kata>
+        <Kumite>Ippon Kumite</Kumite>
+        <Aplicacion_Tecnica>Aplicar</Aplicacion_Tecnica>
 </CinturonNegroPrimerDan>
 
 <CinturonNegroSegundoDan>
-        <Tecnica_Base></Tecnica_Base>
-        <Tecnica_Directa></Tecnica_Directa>
-        <Tecnica_IndirectaCircular></Tecnica_IndirectaCircular>
-        <Tecnica_Pierna></Tecnica_Pierna>
-        <Tecnica_Combinada></Tecnica_Combinada>
-        <Teoria></Teoria>
-        <Kata></Kata>
-        <Kumite></Kumite>
-        <Campeonatos></Campeonatos>
-        <Tecnicas></Tecnicas>
-        <Aplicacion_Tecnica></Aplicacion_Tecnica>
-        <Demo_libre></Demo_libre>
+        <Tecnica_Base>Kakato geri</Tecnica_Base>
+        <Tecnica_Directa>TSUKI-UCHI WAZA</Tecnica_Directa>
+        <Tecnica_IndirectaCircular>TSUKI-UCHI WAZA</Tecnica_IndirectaCircular>
+        <Tecnica_Pierna>Mae geri</Tecnica_Pierna>
+        <Tecnica_Combinada>UKE WAZA y GERI WAZA</Tecnica_Combinada>
+        <Teoria>Avanzada</Teoria>
+        <Kata>Juroku</Kata>
+        <Kumite>Ippon Kumite</Kumite>
+        <Campeonatos>Karate</Campeonatos>
+        <Tecnicas>Kakato geri</Tecnicas>
+        <Aplicacion_Tecnica>Aplicar</Aplicacion_Tecnica>
+        <Demo_libre>Accion Libre</Demo_libre>
 </CinturonNegroSegundoDan>
 
 <CinturonNegroTercerDan>
-        <Variaciones_Tecnica></Variaciones_Tecnica>
-        <Teoria></Teoria>
-        <Kata></Kata>
-        <Kumite></Kumite>
-        <Campeonatos></Campeonatos>
-        <Tecnicas></Tecnicas>
-        <Aplicaciones></Aplicaciones>
-        <aplicacion_Tecnica></aplicacion_Tecnica>
-        <Demo_libre></Demo_libre>
+        <Variaciones_Tecnica>Muchas variaciones</Variaciones_Tecnica>
+        <Teoria>Avanzada</Teoria>
+        <Kata>Juroku</Kata>
+        <Kumite>Ippon Kumite</Kumite>
+        <Campeonatos>Karate</Campeonatos>
+        <Tecnicas>Kakato geri</Tecnicas>
+        <Aplicaciones>Aplicar</Aplicaciones>
+        <aplicacion_Tecnica>Aplicar</aplicacion_Tecnica>
+        <Demo_libre>Accion Libre</Demo_libre>
 </CinturonNegroTercerDan>
 
 <CinturonNegroCuartoDan>
-        <Kata></Kata>
-        <Kumite></Kumite>
-        <Coloquio></Coloquio>
-        <Aplicacion_Tecnica></Aplicacion_Tecnica>
-        <Demo_libre></Demo_libre>
+        <Kata>Juroku</Kata>
+        <Kumite>Ippon Kumite</Kumite>
+        <Coloquio>Mentalizar</Coloquio>
+        <Aplicacion_Tecnica>Aplicar</Aplicacion_Tecnica>
+        <Demo_libre>Accion libre</Demo_libre>
 </CinturonNegroCuartoDan>
 
 <QuintoDanySuperior>
-        <Kata></Kata>
-        <Coloquio></Coloquio>
+        <Kata>Juroku</Kata>
+        <Coloquio>Mentalizar</Coloquio>
 </QuintoDanySuperior>
 
 </examenddl>
