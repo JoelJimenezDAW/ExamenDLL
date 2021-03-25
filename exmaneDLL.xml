@@ -1,10 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 
 <aspirante>
-        <Id_aspirante></Id_aspirante>
-        <Nombres> </Nombres>
-        <Apellidos></Apellidos>
-        <DNI>  </DNI>
+        <Id_aspirante>001</Id_aspirante>
+        <Nombres>Juanda</Nombres>
+        <Apellidos>Ratero Hernandez</Apellidos>
+        <DNI></DNI>
         <Telefono>  </Telefono>
         <Direccion>  </Direccion>
         <Fecha_nacimiento> </Fecha_nacimiento>
