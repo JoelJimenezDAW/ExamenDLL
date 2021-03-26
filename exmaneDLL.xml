@@ -3,14 +3,14 @@
 <examenddl xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="examen.xsd">
 
 <Resultados>
-        <Id_aspirante></Id_aspirante> 
+        <Id_aspirante>001</Id_aspirante> 
 </Resultados>
 
 
 <Aspirantes>
         <Id_aspirante>001</Id_aspirante>
-        <Nombres>Juanda</Nombres>
-        <Apellidos>Ratero Hernandez</Apellidos>
+        <Nombres>Joe</Nombres>
+        <Apellidos>Hernandez Gona</Apellidos>
         <DNI>1243568R</DNI>
         <Telefono>565153456</Telefono>
         <Direccion>Calle Rencor, 20</Direccion>
@@ -33,7 +33,7 @@
 </CriterioValoraciones>
 
 <Examenes>
-        <Id_aspirante></Id_aspirante> 
+        <Id_aspirante>001</Id_aspirante> 
 </Examenes>
 
 <Meritos2>

@@ -5,6 +5,8 @@ Id_aspirante  {
 Resultados::before{
     content:"Resultados"
 }
+
+
   
 Resultados {
     background-color: lightgrey;
@@ -15,6 +17,7 @@ Id_aspirante {
     background-color: lightgreen;
     border: black 2px solid;
     margin: 10px;
+    
 }
   
 Resultados {
@@ -23,6 +26,8 @@ Resultados {
     font-weight: bold;
     padding-left: 2px;
 }
+
+
 
 
 
@@ -58,8 +63,14 @@ Aspirantes {
 
 
 
+
+
 Indumentaria, AseoPersonal, EjecucionTecnica, Valores, Respuestas{
     display: block;
+}
+
+CriterioValoraciones::before{
+    content:"Criterio de Valoraciones"
 }
 
 CriterioValoraciones {
@@ -79,6 +90,588 @@ CriterioValoraciones {
     font-weight: bold;
     padding-left: 2px;
 }
+
+
+
+
+
+
+
+Id_aspirante{
+    display: block;
+}
+
+Examenes::before{
+    content:"Examenes"
+}
+
+Examenes {
+    background-color: lightgrey;
+    font-family: sans-serif;
+}
+
+Id_aspirante{
+    background-color: lightgreen;
+    border: black 2px solid;
+    margin: 10px;
+}
+
+Examenes {
+    background-color: white;
+    border-bottom: black 2px solid;
+    font-weight: bold;
+    padding-left: 2px;
+}
+
+
+
+
+
+
+
+
+Id_aspirante, Edad_aspirante, LicenciaActualizada, TrabajoEscrito{
+    display: block;
+}
+
+Meritos2::before{
+    content:"Meritos de Aspirantes"
+}
+
+Meritos2 {
+    background-color: lightgrey;
+    font-family: sans-serif;
+}
+
+Id_aspirante, Edad_aspirante, LicenciaActualizada, TrabajoEscrito{
+    background-color: lightgreen;
+    border: black 2px solid;
+    margin: 10px;
+}
+
+Meritos2 {
+    background-color: white;
+    border-bottom: black 2px solid;
+    font-weight: bold;
+    padding-left: 2px;
+}
+
+
+
+
+
+
+
+
+Id_aspirante{
+    display: block;
+}
+
+ConvalidacionesGrados::before{
+    content:"Convalidacion de Grados"
+}
+
+ConvalidacionesGrados {
+    background-color: lightgrey;
+    font-family: sans-serif;
+}
+
+Id_aspirante{
+    background-color: lightgreen;
+    border: black 2px solid;
+    margin: 10px;
+}
+
+ConvalidacionesGrados {
+    background-color: white;
+    border-bottom: black 2px solid;
+    font-weight: bold;
+    padding-left: 2px;
+}
+
+
+
+
+
+
+
+SolicitudHasta3Dan, D4anySuperiorCurriculum{
+    display: block;
+}
+
+RequisitosAspirantes::before{
+    content:"Requisitos de los Aspirantes"
+}
+
+RequisitosAspirantes {
+    background-color: lightgrey;
+    font-family: sans-serif;
+}
+
+SolicitudHasta3Dan, D4anySuperiorCurriculum{
+    background-color: lightgreen;
+    border: black 2px solid;
+    margin: 10px;
+}
+
+RequisitosAspirantes {
+    background-color: white;
+    border-bottom: black 2px solid;
+    font-weight: bold;
+    padding-left: 2px;
+}
+
+
+
+
+
+
+Id_aspirante{
+    display: block;
+}
+
+DispensaMedicas::before{
+    content:"Dispensas Medicas del Aspirante"
+}
+
+DispensaMedicas {
+    background-color: lightgrey;
+    font-family: sans-serif;
+}
+
+Id_aspirante{
+    background-color: lightgreen;
+    border: black 2px solid;
+    margin: 10px;
+}
+
+DispensaMedicas {
+    background-color: white;
+    border-bottom: black 2px solid;
+    font-weight: bold;
+    padding-left: 2px;
+}
+
+
+
+
+
+
+
+Id_aspirante, Nombres, Apellidos, DiplomaJuez{
+    display: block;
+}
+
+Jueces::before{
+    content:"Jueces"
+}
+
+Jueces {
+    background-color: lightgrey;
+    font-family: sans-serif;
+}
+
+Id_aspirante, Nombres, Apellidos, DiplomaJuez{
+    background-color: lightgreen;
+    border: black 2px solid;
+    margin: 10px;
+}
+
+Jueces {
+    background-color: white;
+    border-bottom: black 2px solid;
+    font-weight: bold;
+    padding-left: 2px;
+}
+
+
+
+
+
+
+
+
+
+Numero_jueces, Calificacion_final{
+    display: block;
+}
+
+Tribunales::before{
+    content:"Tribunales"
+}
+
+Tribunales {
+    background-color: lightgrey;
+    font-family: sans-serif;
+}
+
+Numero_jueces, Calificacion_final{
+    background-color: lightgreen;
+    border: black 2px solid;
+    margin: 10px;
+}
+
+Tribunales {
+    background-color: white;
+    border-bottom: black 2px solid;
+    font-weight: bold;
+    padding-left: 2px;
+}
+
+
+
+
+
+
+
+
+Id_aspirante{
+    display: block;
+}
+
+AbonarCuotas::before{
+    content:"Abono de cuotas"
+}
+
+AbonarCuotas {
+    background-color: lightgrey;
+    font-family: sans-serif;
+}
+
+Id_aspirante{
+    background-color: lightgreen;
+    border: black 2px solid;
+    margin: 10px;
+}
+
+AbonarCuotas {
+    background-color: white;
+    border-bottom: black 2px solid;
+    font-weight: bold;
+    padding-left: 2px;
+}
+
+
+
+
+
+
+
+Id_aspirante, SuspendeParcial, SuspendeTotal, SuspendeSegundaFase{
+    display: block;
+}
+
+SuspendeExamen::before{
+    content:"Suspensos de Examen"
+}
+
+SuspendeExamen {
+    background-color: lightgrey;
+    font-family: sans-serif;
+}
+
+Id_aspirante, SuspendeParcial, SuspendeTotal, SuspendeSegundaFase{
+    background-color: lightgreen;
+    border: black 2px solid;
+    margin: 10px;
+}
+
+SuspendeExamen {
+    background-color: white;
+    border-bottom: black 2px solid;
+    font-weight: bold;
+    padding-left: 2px;
+}
+
+
+
+
+
+
+Tecnicas, Kata, Kumite, Campeonatos{
+    display: block;
+}
+
+Hasta3erDanes::before{
+    content:"Tercer Danes"
+}
+
+Hasta3erDanes {
+    background-color: lightgrey;
+    font-family: sans-serif;
+}
+
+Tecnicas, Kata, Kumite, Campeonatos{
+    background-color: lightgreen;
+    border: black 2px solid;
+    margin: 10px;
+}
+
+Hasta3erDanes {
+    background-color: white;
+    border-bottom: black 2px solid;
+    font-weight: bold;
+    padding-left: 2px;
+}
+
+
+
+
+
+
+
+Tecnica_Directa, Tecnica_Circulares, Tecnica_Pierna, Teoria, Kata, Kumite{
+    display: block;
+}
+
+CinturonNegros::before{
+    content:"Cinturon Negro"
+}
+
+CinturonNegros {
+    background-color: lightgrey;
+    font-family: sans-serif;
+}
+
+Tecnica_Directa, Tecnica_Circulares, Tecnica_Pierna, Teoria, Kata, Kumite{
+    background-color: lightgreen;
+    border: black 2px solid;
+    margin: 10px;
+}
+
+CinturonNegros {
+    background-color: white;
+    border-bottom: black 2px solid;
+    font-weight: bold;
+    padding-left: 2px;
+}
+
+
+
+
+
+
+
+
+
+
+Tecnica_Defensa, Tecnica_Pierna, Tecnica_DirectaIndirecta, Tecnica_Combinada, Teoria, Kata, Kumite, Aplicacion_Tecnica{
+    display: block;
+}
+
+CinturonNegroPrimerAny::before{
+    content:"1er Any Cinturon Negro"
+}
+
+CinturonNegroPrimerAny {
+    background-color: lightgrey;
+    font-family: sans-serif;
+}
+
+Tecnica_Defensa, Tecnica_Pierna, Tecnica_DirectaIndirecta, Tecnica_Combinada, Teoria, Kata, Kumite, Aplicacion_Tecnica{
+    background-color: lightgreen;
+    border: black 2px solid;
+    margin: 10px;
+}
+
+CinturonNegroPrimerAny {
+    background-color: white;
+    border-bottom: black 2px solid;
+    font-weight: bold;
+    padding-left: 2px;
+}
+
+
+
+
+
+
+
+
+Tecnica_Base, Tecnica_Directa, Tecnica_IndirectaCircular, Tecnica_Pierna, Tecnica_Combinada, Teoria, Kata, Kumite, Campeonatos, Tecnicas,  Aplicacion_Tecnica,Demo_libre {
+    display: block;
+}
+
+CinturonNegroSegundoAny::before{
+    content:"2n Any Cinturon Negro"
+}
+
+CinturonNegroSegundoAny {
+    background-color: lightgrey;
+    font-family: sans-serif;
+}
+
+Tecnica_Base, Tecnica_Directa, Tecnica_IndirectaCircular, Tecnica_Pierna, Tecnica_Combinada, Teoria, Kata, Kumite, Campeonatos, Tecnicas,  Aplicacion_Tecnica,Demo_libre{
+    background-color: lightgreen;
+    border: black 2px solid;
+    margin: 10px;
+}
+
+CinturonNegroSegundoAny {
+    background-color: white;
+    border-bottom: black 2px solid;
+    font-weight: bold;
+    padding-left: 2px;
+}
+
+
+
+
+
+
+Variaciones_Tecnica, Teoria, Kata, Kumite, Campeonatos, Tecnicas, Aplicaciones, Aplicacion_Tecnica, Demo_libre{
+    display: block;
+}
+
+CinturonNegroTercerAny::before{
+    content:"3er Any Cinturon Negro"
+}
+
+CinturonNegroTercerAny {
+    background-color: lightgrey;
+    font-family: sans-serif;
+}
+
+Variaciones_Tecnica, Teoria, Kata, Kumite, Campeonatos, Tecnicas, Aplicaciones, Aplicacion_Tecnica, Demo_libre{
+    background-color: lightgreen;
+    border: black 2px solid;
+    margin: 10px;
+}
+
+CinturonNegroTercerAny {
+    background-color: white;
+    border-bottom: black 2px solid;
+    font-weight: bold;
+    padding-left: 2px;
+}
+
+
+
+
+
+
+Kata, Kumite, Coloquio, Aplicacion_Tecnica, Demo_libre{
+    display: block;
+}
+
+CinturonNegroCuartoAny::before{
+    content:"4o Any Cinturon Negro"
+}
+
+CinturonNegroCuartoAny {
+    background-color: lightgrey;
+    font-family: sans-serif;
+}
+
+Kata, Kumite, Coloquio, Aplicacion_Tecnica, Demo_libre{
+    background-color: lightgreen;
+    border: black 2px solid;
+    margin: 10px;
+}
+
+CinturonNegroCuartoAny {
+    background-color: white;
+    border-bottom: black 2px solid;
+    font-weight: bold;
+    padding-left: 2px;
+}
+
+
+
+
+
+
+Kata, Coloquio{
+    display: block;
+}
+
+QuintoAnySuperior::before{
+    content:"Quinto any Superior"
+}
+
+QuintoAnySuperior {
+    background-color: lightgrey;
+    font-family: sans-serif;
+}
+
+Kata, Coloquio{
+    background-color: lightgreen;
+    border: black 2px solid;
+    margin: 10px;
+}
+
+QuintoAnySuperior {
+    background-color: white;
+    border-bottom: black 2px solid;
+    font-weight: bold;
+    padding-left: 2px;
+}
+
+
+
+
+
+
+
+Id_aspirante{
+    display: block;
+}
+
+CriteriosValoraciones::before{
+    content:"Criterios de Valoracion"
+}
+
+CriteriosValoraciones {
+    background-color: lightgrey;
+    font-family: sans-serif;
+}
+
+Id_aspirante{
+    background-color: lightgreen;
+    border: black 2px solid;
+    margin: 10px;
+}
+
+CriteriosValoraciones {
+    background-color: white;
+    border-bottom: black 2px solid;
+    font-weight: bold;
+    padding-left: 2px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
