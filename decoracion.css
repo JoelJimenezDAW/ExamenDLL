@@ -1,46 +1,85 @@
- Id_aspirante  {
+Id_aspirante  {
     display: block;
-  }
+}
+
+Resultados::before{
+    content:"Resultados"
+}
   
-  Resultados {
+Resultados {
     background-color: lightgrey;
     font-family: sans-serif;
-  }
+}
   
-  Id_aspirante {
+Id_aspirante {
     background-color: lightgreen;
     border: black 2px solid;
     margin: 10px;
-  }
+}
   
-  Resultados {
+Resultados {
     background-color: white;
     border-bottom: black 2px solid;
     font-weight: bold;
     padding-left: 2px;
-  }
+}
 
 
-  Id_aspirante, Nombres, Apellidos, DNI, Telefono, Direccion, Fecha_nacimiento, Dan, Cinturon, Fecha_Ingreso_Dan, FotoAspirante, Tiempo_Dan_Anterior, FotoDNI, FotoCarnetGrados {
+
+
+
+
+Id_aspirante, Nombres, Apellidos, DNI, Telefono, Direccion, Fecha_nacimiento, Dan, Cinturon, Fecha_Ingreso_Dan, FotoAspirante, Tiempo_Dan_Anterior, FotoDNI, FotoCarnetGrados {
     display: block;
-  }
+}
 
-  Aspirantes {
+Aspirantes::before{
+    content:"Aspirantes"
+}
+
+Aspirantes {
     background-color: lightgrey;
     font-family: sans-serif;
-  }
+}
 
-  Nombres, Apellidos, DNI, Telefono, Direccion, Fecha_nacimiento, Dan, Cinturon, Fecha_Ingreso_Dan, FotoAspirante, Tiempo_Dan_Anterior, FotoDNI, FotoCarnetGrados {
+Nombres, Apellidos, DNI, Telefono, Direccion, Fecha_nacimiento, Dan, Cinturon, Fecha_Ingreso_Dan, FotoAspirante, Tiempo_Dan_Anterior, FotoDNI, FotoCarnetGrados {
     background-color: lightgreen;
     border: black 2px solid;
     margin: 10px;
 }
 
+Aspirantes {
+  background-color: white;
+  border-bottom: black 2px solid;
+  font-weight: bold;
+  padding-left: 2px;
+}
+
+
+
+
 Indumentaria, AseoPersonal, EjecucionTecnica, Valores, Respuestas{
     display: block;
-  }
+}
 
-  CriterioValoraciones {
+CriterioValoraciones {
     background-color: lightgrey;
     font-family: sans-serif;
-  }
+}
+
+Indumentaria, AseoPersonal, EjecucionTecnica, Valores, Respuestas{
+    background-color: lightgreen;
+    border: black 2px solid;
+    margin: 10px;
+}
+
+CriterioValoraciones {
+    background-color: white;
+    border-bottom: black 2px solid;
+    font-weight: bold;
+    padding-left: 2px;
+}
+
+
+
+
