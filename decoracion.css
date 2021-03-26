@@ -17,7 +17,7 @@ Id_aspirante {
     background-color: lightgreen;
     border: black 2px solid;
     margin: 10px;
-    
+
 }
   
 Resultados {
@@ -47,7 +47,7 @@ Aspirantes {
     font-family: sans-serif;
 }
 
-Nombres, Apellidos, DNI, Telefono, Direccion, Fecha_nacimiento, Dan, Cinturon, Fecha_Ingreso_Dan, FotoAspirante, Tiempo_Dan_Anterior, FotoDNI, FotoCarnetGrados {
+Id_aspirante, Nombres, Apellidos, DNI, Telefono, Direccion, Fecha_nacimiento, Dan, Cinturon, Fecha_Ingreso_Dan, FotoAspirante, Tiempo_Dan_Anterior, FotoDNI, FotoCarnetGrados {
     background-color: lightgreen;
     border: black 2px solid;
     margin: 10px;
